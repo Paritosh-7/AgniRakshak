@@ -1,0 +1,18 @@
+[
+  {
+    "user": "fire, help!",
+    "bot": "Sorry, I couldn’t understand."
+  },
+  {
+    "user": "there is a fire in my house",
+    "bot": "Sorry, I couldn’t understand."
+  },
+  {
+    "user": "seriously?",
+    "bot": "Sorry, I couldn’t understand."
+  },
+  {
+    "user": "fire!",
+    "bot": "Sorry, I couldn’t understand."
+  }
+]

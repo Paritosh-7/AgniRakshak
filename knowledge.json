@@ -1,0 +1,74 @@
+[
+  {
+    "query": "What should I do if there's a fire in my building?",
+    "response": "If there's a fire, evacuate immediately using the stairs. Do not use elevators. Call the fire department and wait at a safe distance."
+  },
+  {
+    "query": "How do I report a gas leak?",
+    "response": "Leave the area immediately. Do not turn on or off any electrical switches. Call the fire department and your gas provider as soon as you're in a safe location."
+  },
+  {
+    "query": "What to do during an electrical fire?",
+    "response": "Cut off the power supply if possible. Do not use water. Use a Class C fire extinguisher or evacuate and call the fire department."
+  },
+  {
+    "query": "How can I help someone trapped in a fire?",
+    "response": "Do not attempt rescue unless it's absolutely safe. Call the fire department and inform them about the trapped person's location."
+  },
+  {
+    "query": "Should I call fire brigade for animal rescue?",
+    "response": "Yes, you can contact the fire department for animal rescues like pets stuck in wells, trees, or other unsafe areas."
+  },
+  {
+    "query": "What should I do if someone is stuck in an elevator?",
+    "response": "Remain calm. Call the fire department immediately and try to communicate with the person stuck. Do not attempt to force open the elevator."
+  },
+  {
+    "query": "Do fire services help during floods?",
+    "response": "Yes, fire services are often deployed for flood rescue and relief operations. They help with evacuations and emergency aid."
+  },
+  {
+    "query": "Can I call fire brigade in case of a road accident?",
+    "response": "Yes, fire services assist in road accidents, especially when people are trapped in vehicles or if there's a risk of fire."
+  },
+  {
+    "query": "Is it okay to use water on an oil fire?",
+    "response": "No, never use water on oil or grease fires. It can cause the fire to spread. Use a Class B fire extinguisher or smother it with a lid."
+  },
+  {
+    "query": "What if there's a fire in a forest nearby?",
+    "response": "Stay away from the fire line and alert the fire department immediately. Follow local evacuation instructions and avoid driving near the fire zone."
+  },
+  {
+    "query": "tell me a joke",
+    "response": "I'm sorry, but this is a fire/emergency-related assistant. I'm not programmed to share jokes. If you have an emergency or a question related to fire safety, I'm here to help. Please ask, and I'll do my best to assist you."
+  },
+  {
+    "query": "there is a fire",
+    "response": "EMERGENCY! PRESS THE EMERGENCY HELP BUTTON NOW!\n\nIf you're in the same building as the fire: GET OUT!"
+  },
+  {
+    "query": "fire, help!",
+    "response": "**EMERGENCY ALERT**\n\nGET OUT OF THE BUILDING IMMEDIATELY! CALL 911 OR YOUR LOCAL EMERGENCY NUMBER FROM A SAFE LOCATION.\n\nIF YOU'RE IN A ROOM, FEEL THE DOOR WITH THE BACK OF YOUR HAND BEFORE OPENING IT. IF IT'S HOT, FIND ANOTHER WAY OUT.\n\nSTAY LOW TO THE GROUND WHILE ESCAPING TO AVOID INHALING SMOKE. DO NOT USE ELEVATORS.\n\nONCE YOU'RE OUT, GO TO A DESIGNATED MEETING POINT AND CALL 911 AGAIN TO CONFIRM YOU'RE SAFE.\n\nREMEMBER: YOUR SAFETY IS THE TOP PRIORITY!"
+  },
+  {
+    "query": "fire!!",
+    "response": "EMERGENCY! GET OUT OF THE AREA IMMEDIATELY! CALL 911 OR YOUR LOCAL EMERGENCY NUMBER FOR HELP. STAY LOW TO THE GROUND WHILE ESCAPING TO AVOID SMOKE INHALATION."
+  },
+  {
+    "query": "help, fire!",
+    "response": "**EMERGENCY ALERT**\n\nGET OUT OF THE BUILDING IMMEDIATELY!\n\n1. STAY CALM\n2. EXIT THE PREMISES THROUGH THE NEAREST EXIT\n3. CALL 911 OR YOUR LOCAL EMERGENCY NUMBER FROM A SAFE LOCATION\n4. DO NOT USE ELEVATORS\n5. MEET AT A DESIGNATED MEETING POINT OUTSIDE\n\nREMAIN SAFE!"
+  },
+  {
+    "question": "fire,help!",
+    "answer": "EMERGENCY ALERT! Please provide your location and a brief description of the situation. Stay safe!"
+  },
+  {
+    "question": "there is a fire",
+    "answer": "EMERGENCY! WHERE IS THE FIRE? Please provide your location and a brief description of the situation. I'll guide you through the next steps."
+  },
+  {
+    "question": "hey",
+    "answer": "Hello! I'm Saarthi, a fire & emergency service assistant. How can I help you today?"
+  }
+]
