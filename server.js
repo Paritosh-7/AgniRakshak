@@ -33,7 +33,7 @@ try {
 
 let chatHistory = [];
 
-// 🔹 Slightly smarter similarity check
+// Similarity check
 function findSimilarPrompt(userPrompt) {
   const lowerPrompt = userPrompt.toLowerCase();
   for (const key in knowledge) {
@@ -55,7 +55,7 @@ function findSimilarPrompt(userPrompt) {
   return null;
 }
 
-// 🔹 Keywords related to emergency/fire services
+// Keywords related to emergency/fire services
 const emergencyKeywords = [
   "fire", "burn", "smoke", "emergency", "firefighter",
   "ambulance", "rescue", "evacuate", "earthquake",
@@ -71,7 +71,7 @@ function isEmergencyRelated(prompt) {
 app.post("/chat", async (req, res) => {
   const userMessage = req.body.message;
 
-  // 1️⃣ Check knowledge.json first
+  // Check knowledge.json first
   const storedAnswer = findSimilarPrompt(userMessage);
   if (storedAnswer) {
     chatHistory.push({ role: "user", content: userMessage });
@@ -79,7 +79,7 @@ app.post("/chat", async (req, res) => {
     return res.json({ reply: storedAnswer, source: "knowledge" });
   }
 
-  // 2️⃣ Reject non-emergency questions without calling API
+  // Reject non-emergency questions without calling API
   if (!isEmergencyRelated(userMessage)) {
     const reply = "I’m here to assist only with fire safety and emergency-related queries. Please ask something relevant.";
     chatHistory.push({ role: "user", content: userMessage });
@@ -87,7 +87,7 @@ app.post("/chat", async (req, res) => {
     return res.json({ reply, source: "restricted" });
   }
 
-  // 3️⃣ Otherwise, make API call
+  // Otherwise, make API call
   chatHistory.push({ role: "user", content: userMessage });
   if (chatHistory.length > 10) chatHistory = chatHistory.slice(-10);
 
